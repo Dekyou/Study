@@ -1,3 +1,4 @@
+/*
 package com.dekyou.func.poi.higher07.self.copy;
 
 import java.util.List;
@@ -24,11 +25,13 @@ import org.openxmlformats.schemas.wordprocessingml.x2006.main.CTTabs;
 import org.openxmlformats.schemas.wordprocessingml.x2006.main.CTText;
 import org.xml.sax.ContentHandler;
 
+*/
 /**
  * @author GaoJing
  * @date 2018年4月21日
  * 
- */
+ *//*
+
 public class DocMapper extends XWPFDocumentVisitor<Object, XHTMLOptions, XHTMLMasterPage>{
 
     private final ContentHandler contentHandler;
@@ -178,3 +181,4 @@ public class DocMapper extends XWPFDocumentVisitor<Object, XHTMLOptions, XHTMLMa
 
 }
 
+*/
