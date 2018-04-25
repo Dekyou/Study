@@ -172,5 +172,9 @@ public class DocMapper extends XWPFDocumentVisitor<Object, XHTMLOptions, XHTMLMa
 		
 	}
 
+	public void test(){
+		System.out.println("this is a test1");
+	}
+
 }
 
