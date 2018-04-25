@@ -43,7 +43,7 @@ public class DocMapper extends XWPFDocumentVisitor<Object, XHTMLOptions, XHTMLMa
         this.contentHandler = contentHandler;
         this.resolver = getOptions().getURIResolver();
         this.pageDiv = false;
-	}
+	 }
 
 	@Override
 	public XHTMLMasterPage createMasterPage(CTSectPr sectPr) {
