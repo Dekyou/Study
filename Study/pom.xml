@@ -19,6 +19,8 @@
 		<commons-collections.version>4.1</commons-collections.version>
 		<commons-math3.version>3.6.1</commons-math3.version>
 		<poi.version>3.9</poi.version>
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
 	</properties>
 
 	<dependencies>

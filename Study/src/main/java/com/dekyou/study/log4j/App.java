@@ -1,15 +1,18 @@
+/*
 package com.dekyou.study.log4j;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.junit.Test;
 
+*/
 /**
  * log4j 2.0+版本
  * 
  * @author DEKYOU
  *
- */
+ *//*
+
 public class App {
 	
 	
@@ -48,3 +51,4 @@ public class App {
 		logger.fatal("fatal level");
 	}
 }
+*/
