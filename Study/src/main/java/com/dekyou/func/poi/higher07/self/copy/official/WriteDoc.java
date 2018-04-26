@@ -52,7 +52,7 @@ public class WriteDoc {
 	 */
 	private void mergeDoc() throws Exception {
 		XWPFRun run = this.getInsertPosition();
-		run.setText("这是一个简单的测试，2018年4月21日做的一个例子");
+		run.setText("这是一个简单的测试，2018年4月21日做的一个例子1");
 		this.writeNewFile();
 	}
 	
