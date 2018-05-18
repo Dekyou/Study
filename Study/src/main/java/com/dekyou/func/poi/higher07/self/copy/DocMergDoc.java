@@ -129,7 +129,7 @@ public class DocMergDoc {
 					cell.removeParagraph(0);
 					XWPFParagraph pa = cell.addParagraph();
 					XWPFRun run = pa.createRun();
-					run.setText("这是一个测试的例子");
+					run.setText("这是一个 测试的例子");
 					
 				}
 			}

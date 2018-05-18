@@ -1,3 +1,4 @@
+/*
 package com.dekyou.func.poi.higher07;
 
 import java.util.List;
@@ -11,11 +12,13 @@ import org.apache.poi.xwpf.usermodel.XWPFParagraph;
 import org.apache.poi.xwpf.usermodel.XWPFTable;
 import org.xml.sax.ContentHandler;
 
+*/
 /**
  * @author GaoJing
  * @date 2018年4月21日
  * 
- */
+ *//*
+
 public class Doc2Merge {
 	
 	private static final Doc2Merge instance = new Doc2Merge();
@@ -74,21 +77,25 @@ public class Doc2Merge {
 
 
 	
-	/**
+	*/
+/**
 	 * 遍历段落
 	 * @param paragraph
 	 * @param i
-	 */
+	 *//*
+
 	public void visitParagraph(XWPFParagraph paragraph, int i) {
 		
 		
 	}
 	
-	/**
+	*/
+/**
 	 * 遍历表格
 	 * @param bodyElement
 	 * @param i
-	 */
+	 *//*
+
 	public void visitTable(XWPFTable bodyElement, int i) {
 		
 		
@@ -98,3 +105,4 @@ public class Doc2Merge {
 	
 }
 
+*/
