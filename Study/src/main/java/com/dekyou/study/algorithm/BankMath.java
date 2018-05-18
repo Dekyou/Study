@@ -61,5 +61,15 @@ public class BankMath {
 		System.out.println(result);
 	}
 	
+	
+	@Test
+	public void test3() {
+		double f = 1.10;
+		BigDecimal b = new BigDecimal(f);
+		double f1 = b.setScale(2, RoundingMode.DOWN).doubleValue();
+	
+		System.out.println(f1);
+	}
+	
 }
 

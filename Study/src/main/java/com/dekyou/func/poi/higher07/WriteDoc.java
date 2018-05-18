@@ -38,16 +38,15 @@ public class WriteDoc {
         run.setText(content);
         
        
-        InputStream pictureData = new FileInputStream("D:\\docPic\\image1.jpeg");
-		int pictureType = Document.PICTURE_TYPE_JPEG;
-		String filename = "";
-		int width =  Units.toEMU(197.85);
-		int height = Units.toEMU(85.6);
+//        InputStream pictureData = new FileInputStream("D:\\docPic\\image1.jpeg");
+//		int pictureType = Document.PICTURE_TYPE_JPEG;
+//		String filename = "";
+//		int width =  Units.toEMU(197.85);
+//		int height = Units.toEMU(85.6);
+//		
+//		run.addPicture(pictureData, pictureType, filename, width, height);
 		
-		run.addPicture(pictureData, pictureType, filename, width, height);
-		
-        File file = new File(filePath);
-        FileOutputStream out = new FileOutputStream(file);  
+        FileOutputStream out = new FileOutputStream(filePath);  
         doc.write(out);
         out.close();
 	}
